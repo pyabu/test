@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LearnX - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="st.css">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #0d6efd;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      margin-right: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #d9e3ff !important;
+    }
+
+    .intro-section {
+      padding: 60px 0;
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature-section {
+      padding: 60px 0;
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .feature-icon {
+      font-size: 2.5rem;
+      background-color: #212529;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="bi bi-lightning-fill me-2"></i>LearnX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html"><i class="bi bi-house-door-fill me-1"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiment.html"><i class="bi bi-flask-fill me-1"></i>Experiment</a></li>
+          <li class="nav-item"><a class="nav-link" href="port.html"><i class="bi bi-person-badge-fill me-1"></i>Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+      <h2 class="mb-3 fw-bold">Master Modern Web Development</h2>
+      <p class="lead text-muted">Build your skills in HTML, CSS, and JavaScript with interactive content and real-world projects.Web development is the art of building virtual spaces where people can connect, interact, and thrive.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="feature-section">
+      <div class="text-center mb-5">
+        <h3 class="fw-bold">What You'll Learn</h3>
+        <p class="text-muted">Solidify your understanding with hands-on examples and a clear learning path.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 p-4 text-center">
+            <i class="bi bi-file-earmark-code-fill feature-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">HTML</h5>
+              <p class="card-text">Learn how to structure web content with semantic tags and accessible markup.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 p-4 text-center">
+            <i class="bi bi-palette-fill feature-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">CSS</h5>
+              <p class="card-text">Style websites beautifully using modern layout techniques like Flexbox and Grid.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 p-4 text-center">
+            <i class="bi bi-braces feature-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">JavaScript</h5>
+              <p class="card-text">Add interactivity and functionality with modern JavaScript and DOM manipulation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ 
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
